@@ -1,0 +1,18 @@
+{
+  "name": "sbn-backend",
+  "version": "1.0.0",
+  "description": "Backend for sbn project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "fastify-formbody": "^5.0.0",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3"
+  }
+}
